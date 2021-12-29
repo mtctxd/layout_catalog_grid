@@ -1,12 +1,12 @@
 .catalog {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-columns: repeat(auto-fill, $card-width);
   gap: $card-gap;
   max-width: $card-container-width;
   margin: 0 auto;
 
   &__card {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: $card-width;
