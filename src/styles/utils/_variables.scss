@@ -1,0 +1,5 @@
+$card-width: 200px;
+$card-gap: 48px;
+$number-of-columns: 4;
+$card-container-width:
+  $card-width * $number-of-columns + (($number-of-columns - 1) * $card-gap);
